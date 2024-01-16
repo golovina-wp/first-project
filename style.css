@@ -32,6 +32,8 @@ nav > button:hover {
 main {
   height: 700px;
   text-align: center;
+  background-image: url(img-back.jpeg);
+  background-size: cover;
 }
 main > button {
   padding: 10px 20px;
