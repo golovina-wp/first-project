@@ -29,3 +29,21 @@ nav > button:hover {
   transition: 0.2s;
   cursor: pointer;
 }
+main {
+  height: 700px;
+  text-align: center;
+}
+main > button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #38d84d;
+}
+main > button:hover {
+  background-color: #31af42;
+  transition: 0.2s;
+  cursor: pointer;
+}
