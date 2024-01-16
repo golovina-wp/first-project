@@ -1,3 +1,31 @@
-h1 {
-	color: red;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  height: 60px;
+}
+nav > ul {
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+nav > ul li {
+  list-style: none;
+  font-size: 14px;
+}
+nav > button {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #87b523;
+  color: #fff;
+}
+nav > button:hover {
+  background-color: #aaca64;
+  transition: 0.2s;
+  cursor: pointer;
 }
