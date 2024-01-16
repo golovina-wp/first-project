@@ -30,10 +30,12 @@ nav > button:hover {
   cursor: pointer;
 }
 main {
-  height: 700px;
+  height: 300px;
   text-align: center;
   background-image: url(img-back.jpeg);
   background-size: cover;
+  background-position: center;
+  opacity: .9;
 }
 main > button {
   padding: 10px 20px;
