@@ -22,6 +22,10 @@ nav > ul li {
   font-family: 'Exo 2';
   font-weight: 400;
 }
+nav > ul li:hover {
+  cursor: pointer;
+  color: #87b523;
+}
 nav > button {
   font-size: 12px;
   font-family: 'Exo 2';
@@ -48,7 +52,7 @@ main {
 }
 .sl-text {
   position: absolute;
-  top: 25%;
+  top: 23%;
   left: 0;
   right: 0;
 }
