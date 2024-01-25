@@ -30,14 +30,20 @@ nav > button:hover {
   cursor: pointer;
 }
 main {
-  height: 300px;
+  height: 500px;
   text-align: center;
   background-image: url(img-back.jpeg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   opacity: .9;
 }
-main > button {
+.sl-text {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+}
+.sl-text button {
   padding: 10px 20px;
   border-radius: 5px;
   border: 0;
@@ -46,7 +52,7 @@ main > button {
   font-size: 14px;
   background-color: #38d84d;
 }
-main > button:hover {
+.sl-text button:hover {
   background-color: #31af42;
   transition: 0.2s;
   cursor: pointer;
