@@ -58,12 +58,14 @@ main {
     left: 0;
     right: 0;
 }
+.sl-text h1, .sl-text h2 {
+  font-family: 'Exo 2';
+  font-weight: 700;	
+}
 .sl-text h1 {
-  font-family: 'Exo 2 Bold';
   font-size: 46px;
 }
 .sl-text h2 {
-  font-family: 'Exo 2 Bold';
   font-size: 32px;
 }
 .sl-text button {
