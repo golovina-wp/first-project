@@ -1,20 +1,14 @@
 @font-face {
 	font-family: "Exo2 Regular";  
-	src: url("/fonts/Exo2-Regular.ttf") format("truetype"); 
-	font-style: normal; 
-	font-weight: normal;
+	src: url("/fonts/Exo2-Regular.ttf") format("truetype");
  }
 @font-face {
 	font-family: "Exo2 Medium";
 	src: url("/fonts/Exo2-Medium.ttf") format("truetype");
-	font-style: normal; 
-	font-weight: normal; 
 } 
 @font-face {
 	font-family: "Exo2 Bold";
 	src: url("/fonts/Exo2-Bold.ttf") format("truetype");
-	font-style: normal; 
-	font-weight: normal; 
 }
 nav {
   display: flex;
@@ -74,8 +68,8 @@ main {
   border-radius: 5px;
   border: 0;
   color: #fff;
-  font-family: 'Exo 2 Medium';
-  font-size: 14px;
+  font-family: 'Exo 2 Regular';
+  font-size: 16px;
   background-color: #38d84d;
 }
 .sl-text button:hover {
