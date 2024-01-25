@@ -25,6 +25,7 @@ nav > ul li {
 nav > ul li:hover {
   cursor: pointer;
   color: #87b523;
+  transition: 0.2s;
 }
 nav > button {
   font-size: 12px;
