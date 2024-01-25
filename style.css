@@ -1,13 +1,16 @@
 @font-face {
-	font-family: "Exo 2 Regular";  
+	font-family: 'Exo 2';
+	font-weight: 400;
 	src: url("/fonts/Exo2-Regular.ttf") format("truetype");
  }
 @font-face {
-	font-family: "Exo 2 Medium";
+	font-family: 'Exo 2';
+	font-weight: 500;
 	src: url("/fonts/Exo2-Medium.ttf") format("truetype");
 } 
 @font-face {
-	font-family: "Exo 2 Bold";
+	font-family: 'Exo 2';
+	font-weight: 700;
 	src: url("/fonts/Exo2-Bold.ttf") format("truetype");
 }
 nav {
