@@ -1,18 +1,8 @@
 @font-face {
-	font-family: 'Exo 2';
-	font-weight: 400;
-	src: url("/fonts/Exo2-Regular.ttf") format("truetype");
+  font-family: 'Exo 2';
+  font-weight: 400;
+  src: url("/fonts/Exo2-Regular.ttf") format("truetype");
  }
-@font-face {
-	font-family: 'Exo 2';
-	font-weight: 500;
-	src: url("/fonts/Exo2-Medium.ttf") format("truetype");
-} 
-@font-face {
-	font-family: 'Exo 2';
-	font-weight: 700;
-	src: url("/fonts/Exo2-Bold.ttf") format("truetype");
-}
 nav {
   display: flex;
   align-items: center;
@@ -53,14 +43,16 @@ main {
   opacity: .9;
 }
 .sl-text {
-    position: absolute;
-    top: 25%;
-    left: 0;
-    right: 0;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
 }
 .sl-text h1, .sl-text h2 {
   font-family: 'Exo 2';
-  font-weight: 700;	
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
 }
 .sl-text h1 {
   font-size: 46px;
@@ -73,7 +65,8 @@ main {
   border-radius: 5px;
   border: 0;
   color: #fff;
-  font-family: 'Exo 2 Regular';
+  font-family: 'Exo 2';
+  font-weight: 400;
   font-size: 16px;
   background-color: #38d84d;
 }
